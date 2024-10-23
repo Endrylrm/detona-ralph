@@ -62,8 +62,7 @@ function addListenerHitbox() {
         state.view.score.textContent = state.values.result;
         state.values.hitPosition = null;
         playSound("hit.m4a");
-      }
-      if (
+      } else if (
         state.values.currentLives > 0 &&
         square.id != state.values.hitPosition
       ) {
@@ -71,6 +70,10 @@ function addListenerHitbox() {
       }
     });
   });
+}
+
+function restartGame() {
+  window.location.reload();
 }
 
 function GameOver() {
