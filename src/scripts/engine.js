@@ -83,6 +83,7 @@ function GameOver() {
   clearInterval(state.actions.timerId);
   playSound("game-over.mp3");
   alert("Game Over! o seu resultado foi: " + state.values.result);
+  restartGame();
 }
 
 function initialize() {
