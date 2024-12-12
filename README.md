@@ -1,4 +1,4 @@
-# Jogo Detone Ralph - DIO.me
+# Jogo Detona Ralph - DIO.me
 
 Jogo desenvolvido no bootcamp da DIO, com o intuito de aprender conceitos de frontend.
 
